@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (max-width:576px) and (width:576px) and (min-width:576px){
+    .bg_container{
+    background-color: #fef7e7;
+    height: 100vh;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .move_image{
+        height: 280px;
+        width: 280px;
+        
+    }
+    
+    .heading{
+        font-family: Roboto;
+        font-size: 25px;
+        color: #333333;
+        font-weight: bold;
+    }
+    
+    .description{
+        font-family: Roboto;
+        font-size: 20px;
+        color: #858a8f;
+        font-weight: 200;
+    }
+    
+    .viewmore_button{
+        color: #ffffff;
+        background-color: #f1b80b;
+        border-width: 0px;
+        height: 50px;
+        font-size: 18px;
+        font-family: Roboto;
+        width: 150px;
+        border-radius: 10px;
+    }
+    
+    .inner_div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:768px) , (min-width:992px) , (min-width:1200px){
+    .bg_container{
+    background-color: #fef7e7;
+    height: 100vh;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    }
+    
+    .move_image{
+        height: 390px;
+        width: 390px;
+        order: 1;
+    }
+    
+    .heading{
+        font-family: Roboto;
+        font-size: 30px;
+        color: #333333;
+        font-weight: bold;
+    }
+    
+    .description{
+        font-family: Roboto;
+        font-size: 20px;
+        color: #858a8f;
+        font-weight: 200;
+    }
+    
+    .viewmore_button{
+        color: #ffffff;
+        background-color: #f1b80b;
+        border-width: 0px;
+        height: 50px;
+        font-size: 18px;
+        font-family: Roboto;
+        width: 150px;
+        border-radius: 10px;
+    }
+    
+    .inner_div{
+        display: flex;
+        flex-direction: column;
+    }
+}
