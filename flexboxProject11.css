@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (max-width:576px) and (min-width:576px) and (width:576px){
+    .bg_container{
+        background-image: url('https://res.cloudinary.com/dnerthits/image/upload/v1755596779/travel-sm-bg_whrmgn.png');
+        height: 100vh;
+        background-size: cover;
+        padding: 30px;
+    }
+    
+    .heading{
+        color: #ffffff;
+        font-size: 50px;
+        font-family: Roboto;
+        text-align: center;
+    }
+    
+    .description{
+        color: #ffffff;
+        font-size: 25px;
+        font-family: Open Sans;
+        text-align: center;
+        font-weight: 100;
+    }
+    
+    .inner_bottom_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .button1{
+        color: #183b56;
+        font-size: 25px;
+        padding: 20px;
+        font-family: Roboto;
+        font-weight: bold;
+        border-radius: 40px;
+        border-width: 0px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    
+    .button2{
+        color: #ffffff;
+        font-size: 25px;
+        padding: 20px;
+        font-family: Roboto;
+        font-weight: bold;
+        border-radius: 40px;
+        border: 2px #ffffff solid;
+        margin-bottom: 30px;
+        background-color: transparent;
+    }
+}
+
+@media (min-width:768px) , (min-width:992px) , (min-width:1200){
+    .bg_container{
+        background-image: url('https://res.cloudinary.com/dnerthits/image/upload/v1755596792/travel-md-bg_fgghbr.png');
+        height: 100vh;
+        background-size: cover;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .heading{
+        color: #ffffff;
+        font-size: 50px;
+        font-family: Roboto;
+        text-align: center;
+    }
+    
+    .description{
+        color: #ffffff;
+        font-size: 25px;
+        font-family: Open Sans;
+        text-align: center;
+        font-weight: 100;
+    }
+    
+    .inner_bottom_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .button1{
+        color: #183b56;
+        font-size: 30px;
+        padding: 30px;
+        font-family: Roboto;
+        font-weight: bold;
+        border-radius: 50px;
+        border-width: 0px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        width: 250px;
+        height: 1;
+    }
+    
+    .button2{
+        color: #ffffff;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: Roboto;
+        font-weight: bold;
+        border-radius: 60px;
+        border: 2px #ffffff solid;
+        margin-top: 55px;
+        margin-left: 20px;
+        background-color: transparent;
+        width: 230px;
+        height: 90px;
+    }
+}
