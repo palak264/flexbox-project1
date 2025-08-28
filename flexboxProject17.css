@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (max-width:576px){
+    .bg_container{
+    background-image: url('https://res.cloudinary.com/dnerthits/image/upload/v1756368139/fairpods-darkpink-bg_gmhcku.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+    
+    .image{
+        height: 300px;
+        width: 250px;
+        align-self: center;
+        padding-top: 50px;
+    }
+    
+    .content_container{
+        padding: 15px;
+    }
+    
+    .brand{
+        color:#8e62d9;
+        font-family: Lucida console;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .heading{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
+    .description{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+    
+    .viewMoreButton{
+        height: 40px;
+        width: 150px;
+        color: #8e62d9;
+        font-size: 15px;
+        font-family: Roboto;
+        font-weight: bold;
+        background-color: #ffdda9;
+        border-radius: 20px;
+        border-width: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:576px){
+    .bg_container{
+    background-image: url('https://res.cloudinary.com/dnerthits/image/upload/v1756368139/fairpods-darkpink-bg_gmhcku.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+    
+    .image{
+        height: 350px;
+        width: 300px;
+        align-self: center;
+        padding-top: 50px;
+    }
+    
+    .content_container{
+        padding: 30px;
+    }
+    
+    .brand{
+        color:#8e62d9;
+        font-family: Lucida console;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .heading{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    
+    .description{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+    
+    .viewMoreButton{
+        height: 50px;
+        width: 160px;
+        color: #8e62d9;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: bold;
+        background-color: #ffdda9;
+        border-radius: 25px;
+        border-width: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width:768px){
+    .bg_container{
+    background-image: url('https://res.cloudinary.com/dnerthits/image/upload/v1756368139/fairpods-darkpink-bg_gmhcku.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .image{
+        height: 400px;
+        width: 350px;
+        align-self: center;
+        padding-top: 50px;
+    }
+    
+    .content_container{
+        padding: 50px;
+    }
+    
+    .brand{
+        color:#8e62d9;
+        font-family: Lucida console;
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
+    .heading{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 45px;
+    }
+    
+    .description{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 27px;
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+    
+    .viewMoreButton{
+        height: 60px;
+        width: 190px;
+        color: #8e62d9;
+        font-size: 25px;
+        font-family: Roboto;
+        font-weight: bold;
+        background-color: #ffdda9;
+        border-radius: 30px;
+        border-width: 0px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:992px){
+    .bg_container{
+    background-image: url('https://res.cloudinary.com/dnerthits/image/upload/v1756368137/fairpods-blue-bg_srlx9a.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .image{
+        height: 450px;
+        width: 400px;
+        align-self: center;
+        padding-top: 50px;
+        order: 1;
+        position: relative;
+        bottom: 30px;
+    }
+    
+    .content_container{
+        padding: 200px;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    
+    .brand{
+        color:#8e62d9;
+        font-family: Lucida console;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .heading{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+    
+    .description{
+        color:#ffffff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+    
+    .viewMoreButton{
+        height: 60px;
+        width: 190px;
+        color: #8e62d9;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: bold;
+        background-color: #ffdda9;
+        border-radius: 30px;
+        border-width: 0px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
